@@ -1,0 +1,23 @@
+# PlatformIO / firmware build artifacts
+.pio
+.vscode/
+Firmware/.vscode/
+
+# KiCad local backups/locks
+.history/
+*-backups/
+fp-info-cache
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.lck
+
+# Office lock files
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

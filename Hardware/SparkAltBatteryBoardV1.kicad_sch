@@ -1,0 +1,610 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2504ebba-1d3e-47b0-a703-bed26a4afa47")
+	(paper "A4")
+	(title_block
+		(title "SparkAltBatteryBoard - Main System Architecture")
+		(date "2026-06-18")
+		(rev "v1.0")
+		(company "Fahreddin Esad Aykut")
+		(comment 1 "Target Payload: 3S LiHV / 15A Cont. (30A Peak) Load")
+		(comment 2 "Integrated Telemetry & I2C BMS Handshake via ATmega328P")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 52.07 71.12) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28745558-a691-4d50-abb5-5c2c850bf13d")
+	)
+	(wire
+		(pts
+			(xy 52.07 63.5) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d43bf6c-a1d4-4723-b43b-4232d7c5b08c")
+	)
+	(wire
+		(pts
+			(xy 116.84 50.8) (xy 132.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec5e799-af3e-4b44-bcd3-7d72194a7a10")
+	)
+	(wire
+		(pts
+			(xy 116.84 39.37) (xy 132.08 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be4760c-0bb9-41f6-b504-798b0bde41ec")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 132.08 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad2c220-ef2f-41ba-921c-2eace36a2446")
+	)
+	(wire
+		(pts
+			(xy 52.07 31.75) (xy 71.12 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602e6f07-8e3a-446b-9050-e4a1f012901a")
+	)
+	(wire
+		(pts
+			(xy 52.07 39.37) (xy 71.12 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623c57ca-a2f5-432b-840f-449ba6d44f2b")
+	)
+	(wire
+		(pts
+			(xy 52.07 59.69) (xy 132.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d679b06-2066-4acd-b321-551d359a7607")
+	)
+	(wire
+		(pts
+			(xy 116.84 46.99) (xy 132.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961b9f79-163a-454d-a092-58ad4783c6ce")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a185a0f5-5221-464e-8749-47fc70d11272")
+	)
+	(wire
+		(pts
+			(xy 116.84 31.75) (xy 132.08 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f735f0-b73d-43d5-af24-dff5e7de5ca0")
+	)
+	(wire
+		(pts
+			(xy 52.07 67.31) (xy 132.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a6b2bb-34fe-412d-b891-a1a3c0652b6c")
+	)
+	(wire
+		(pts
+			(xy 52.07 74.93) (xy 132.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaca8348-428c-4783-93b7-60650f5f83d7")
+	)
+	(wire
+		(pts
+			(xy 52.07 35.56) (xy 71.12 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5660b9-3dbe-4c8a-a282-f6070c281109")
+	)
+	(wire
+		(pts
+			(xy 116.84 43.18) (xy 132.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef81de9-93c1-4455-bc4b-3830178716bc")
+	)
+	(sheet
+		(at 132.08 26.67)
+		(size 34.29 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "15ccb82d-c14f-4912-8cd4-67e27e4e777c")
+		(property "Sheetname" "Connectors"
+			(at 132.08 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 132.08 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CELL1_RAW_IN" output
+			(at 132.08 63.5 180)
+			(uuid "81462d4d-767a-46cb-a1f3-9527f138b693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CELL2_RAW_IN" output
+			(at 132.08 67.31 180)
+			(uuid "03a29280-2822-4016-8035-8380b583cb66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CELL3_RAW_IN" output
+			(at 132.08 71.12 180)
+			(uuid "bd21b3ff-14a1-4062-a669-16589e74a4d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_RESET" output
+			(at 132.08 39.37 180)
+			(uuid "dc9a4eae-e18a-4e4b-a0cc-9d8a6f03d694")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_SPI_MISO" input
+			(at 132.08 43.18 180)
+			(uuid "b24328a8-484d-4b6a-a56e-b4df5e90a06a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_SPI_MOSI" output
+			(at 132.08 46.99 180)
+			(uuid "d129997e-b1b7-44e8-80b7-b840ee90963e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_SPI_SCK" output
+			(at 132.08 50.8 180)
+			(uuid "c67f4b17-2c1c-4a3e-b4bd-38cfbcf1c890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_I2C_SCL" input
+			(at 132.08 35.56 180)
+			(uuid "b5129418-b796-4b30-b1b5-e04c5ee19770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_I2C_SDA" input
+			(at 132.08 31.75 180)
+			(uuid "6b4b727e-e804-4641-bfb3-6394667b88f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_DJI_OUT" input
+			(at 132.08 59.69 180)
+			(uuid "37965768-8b71-4729-aa1b-30ff372463fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_RAW_IN" output
+			(at 132.08 74.93 180)
+			(uuid "e03d7ab3-5090-4459-a2fe-d88878b45ade")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SparkAltBatteryBoardV1"
+				(path "/2504ebba-1d3e-47b0-a703-bed26a4afa47"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 25.4)
+		(size 29.21 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3735d1a4-c2c1-40e4-8e1c-f97778ff8ea7")
+		(property "Sheetname" "Power_and_Sensing"
+			(at 22.86 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_and_Sensing.kicad_sch"
+			(at 22.86 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT_CELL1_V" output
+			(at 52.07 31.75 0)
+			(uuid "bb9781e8-f06d-4cb5-a8ca-8c6d4676137e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_CELL2_V" output
+			(at 52.07 35.56 0)
+			(uuid "d173ef6c-2fd1-4ba0-87d5-4523e2cb34c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_CELL3_V" output
+			(at 52.07 39.37 0)
+			(uuid "28d37dd0-f186-4a83-b519-85f8d74b15d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL1_RAW_IN" input
+			(at 52.07 63.5 0)
+			(uuid "b50e6043-2f8b-4abd-83d1-59c00dbb7edc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL2_RAW_IN" input
+			(at 52.07 67.31 0)
+			(uuid "9cff183f-e73b-4b00-bc7e-bc5828cf2e7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL3_RAW_IN" input
+			(at 52.07 71.12 0)
+			(uuid "3120deaf-006d-420c-9417-7d9992b12c69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_CURR_ANA" output
+			(at 52.07 43.18 0)
+			(uuid "95d59136-d296-4187-93f1-1d0953bbb8f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_DJI_OUT" output
+			(at 52.07 59.69 0)
+			(uuid "1deeff9a-ed1c-456c-93d6-0138f2d0626b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_RAW_IN" output
+			(at 52.07 74.93 0)
+			(uuid "e2636912-0a30-4af1-9470-cee50de635ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SparkAltBatteryBoardV1"
+				(path "/2504ebba-1d3e-47b0-a703-bed26a4afa47"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 26.67)
+		(size 45.72 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4e05d555-1e6a-463a-bb6c-70c56f259488")
+		(property "Sheetname" "MCU_Core"
+			(at 71.12 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Core.kicad_sch"
+			(at 71.12 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT_CELL1_V" input
+			(at 71.12 31.75 180)
+			(uuid "6549efae-ef01-4b3c-ac8f-7ec7fe5c1a33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT_CELL2_V" input
+			(at 71.12 35.56 180)
+			(uuid "5693aaaa-f53f-4cb7-90d6-ed775e885dd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT_CELL3_V" input
+			(at 71.12 39.37 180)
+			(uuid "78232aa1-f186-4a57-9306-ea318fe5b7c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_RESET" input
+			(at 116.84 39.37 0)
+			(uuid "0aeb6077-2cd1-48f2-b9c3-6d58ebd620e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_SPI_MISO" output
+			(at 116.84 43.18 0)
+			(uuid "810f2950-9363-4f55-8411-d64de36d912a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_SPI_MOSI" input
+			(at 116.84 46.99 0)
+			(uuid "4ab260eb-ad61-43a1-bd60-3d5ea13ef556")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_SPI_SCK" input
+			(at 116.84 50.8 0)
+			(uuid "c6af5306-b905-41e7-8e40-8f614a66e0f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_CURR_ANA" input
+			(at 71.12 43.18 180)
+			(uuid "82d57194-b335-471b-8511-624ea232f3fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_I2C_SCL" bidirectional
+			(at 116.84 35.56 0)
+			(uuid "246ba6cb-f9f9-4db2-95f4-e9faea02de3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_I2C_SDA" bidirectional
+			(at 116.84 31.75 0)
+			(uuid "c32eb237-38a0-460c-8fb3-9737101d8efa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SparkAltBatteryBoardV1"
+				(path "/2504ebba-1d3e-47b0-a703-bed26a4afa47"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
